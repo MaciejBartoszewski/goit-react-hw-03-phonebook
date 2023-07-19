@@ -14,7 +14,7 @@ export const Filter = ({ filter, onChange }) => {
             name="name"
             value={filter}
             onChange={onChange}
-            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+            pattern="^[A-Za-z.'\- ]+$"
           />
         </label>
       </form>
